@@ -1,24 +1,40 @@
 # MazeGame
 
-MazeGame is a maze-solving game created by recklessrashdan. The project is written in Python and generates random mazes for players to navigate using keyboard controls. It is designed to be simple, interactive, and easy for others to understand or modify.
+MazeGame is a Python-based maze adventure where players solve procedurally generated labyrinths using keyboard controls. The game focuses on fun, replayability, and an accessible codebase for learning or customization.
 
-## Key Features
+## Features
 
-- Random maze generation for unique gameplay each time
-- Keyboard navigation for intuitive control
-- Clean, modular Python codebase
-- Simple graphics focused on the maze experience
+- Procedural maze generation for a new layout every game
+- Keyboard controls for smooth player movement
+- Minimal graphics for a classic maze experience
+- Modular Python code that is easy to read and extend
 
-## How to Play
+## Installation
 
-1. Clone this repository:  
+1. Clone this repository:
    `git clone https://github.com/recklessrashdan/mazegame.git`
-2. Install dependencies from `requirements.txt`.
-3. Run the main Python script to start the game.
+2. Change to the project directory:
+   `cd mazegame`
+3. Install the dependencies:
+   `pip install -r requirements.txt`
 
-## Notice
+## Usage
 
-This project is not licensed for use, copying, modification, or redistribution. All rights reserved by recklessrashdan.
+Run the main script to start the game:
 
+`python main.py`
 
-Enjoy exploring and solving mazes with MazeGame!
+Use the arrow keys or WASD to move through the maze and find the exit.
+
+## Project Structure
+
+- `main.py` – game entry point
+- `maze.py` – maze generation and layout logic
+- `player.py` – player movement and input handling
+- `requirements.txt` – required Python packages
+
+## Notes
+
+This project is maintained by recklessrashdan. All rights reserved.
+
+Enjoy solving the maze and feel free to explore the code to make it your own.
